@@ -1,0 +1,151 @@
+﻿Build started 10/1/2015 8:15:30 PM.
+     1>Project "D:\projects\UAF\src\FRUAExport\FRUAExport_VS2008.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _WIN32_WINNT=0x0501 /D _USE_32BIT_TIME_T /D NO_WARN_MBCS_MFC_DEPRECATION /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt FRUAArtFiles.cpp FRUAExport.cpp FRUAGameDat.cpp FRUAItems.cpp FRUALevels.cpp FRUAMonster.cpp FRUASoundFiles.cpp FRUASpells.cpp FRUAStringTables.cpp FRUAVocab.cpp globals.cpp stdafx.cpp Utilities.cpp
+         FRUAArtFiles.cpp
+         FRUAExport.cpp
+     1>FRUAExport.cpp(181): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'CString'
+         FRUAGameDat.cpp
+         FRUAItems.cpp
+         FRUALevels.cpp
+         FRUAMonster.cpp
+         FRUASoundFiles.cpp
+         FRUASpells.cpp
+         FRUAStringTables.cpp
+         FRUAVocab.cpp
+         globals.cpp
+         stdafx.cpp
+         Utilities.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\projects\UAF\src\FRUAExport\Debug\FRUAExport.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:".\jsoncpp-src-0.5.0\build\vs71\debug\lib_json" jsoncpp_d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"D:\projects\UAF\src\FRUAExport\Debug\FRUAExport.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\projects\UAF\src\FRUAExport\Debug\FRUAExport.lib" /MACHINE:X86 /SAFESEH Debug\FRUAArtFiles.obj
+         Debug\FRUAExport.obj
+         Debug\FRUAGameDat.obj
+         Debug\FRUAItems.obj
+         Debug\FRUALevels.obj
+         Debug\FRUAMonster.obj
+         Debug\FRUASoundFiles.obj
+         Debug\FRUASpells.obj
+         Debug\FRUAStringTables.obj
+         Debug\FRUAVocab.obj
+         Debug\globals.obj
+         Debug\stdafx.obj
+         Debug\Utilities.obj
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<short>::is_signed" (?is_signed@?$numeric_limits@F@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<short>::digits" (?digits@?$numeric_limits@F@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<short>::digits10" (?digits10@?$numeric_limits@F@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<unsigned short>::is_signed" (?is_signed@?$numeric_limits@G@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<unsigned short>::digits" (?digits@?$numeric_limits@G@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<unsigned short>::digits10" (?digits10@?$numeric_limits@G@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<char16_t>::is_signed" (?is_signed@?$numeric_limits@_S@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<char16_t>::digits" (?digits@?$numeric_limits@_S@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<char16_t>::digits10" (?digits10@?$numeric_limits@_S@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<int>::is_signed" (?is_signed@?$numeric_limits@H@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<int>::digits" (?digits@?$numeric_limits@H@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<int>::digits10" (?digits10@?$numeric_limits@H@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<unsigned int>::is_signed" (?is_signed@?$numeric_limits@I@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<unsigned int>::digits" (?digits@?$numeric_limits@I@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<unsigned int>::digits10" (?digits10@?$numeric_limits@I@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<long>::is_signed" (?is_signed@?$numeric_limits@J@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<long>::digits" (?digits@?$numeric_limits@J@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<long>::digits10" (?digits10@?$numeric_limits@J@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<unsigned long>::is_signed" (?is_signed@?$numeric_limits@K@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<unsigned long>::digits" (?digits@?$numeric_limits@K@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<unsigned long>::digits10" (?digits10@?$numeric_limits@K@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<char32_t>::is_signed" (?is_signed@?$numeric_limits@_U@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<char32_t>::digits" (?digits@?$numeric_limits@_U@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<char32_t>::digits10" (?digits10@?$numeric_limits@_U@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<__int64>::is_signed" (?is_signed@?$numeric_limits@_J@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<__int64>::digits" (?digits@?$numeric_limits@_J@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<__int64>::digits10" (?digits10@?$numeric_limits@_J@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<unsigned __int64>::is_signed" (?is_signed@?$numeric_limits@_K@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<unsigned __int64>::digits" (?digits@?$numeric_limits@_K@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<unsigned __int64>::digits10" (?digits10@?$numeric_limits@_K@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<float>::digits" (?digits@?$numeric_limits@M@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<float>::digits10" (?digits10@?$numeric_limits@M@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<float>::max_digits10" (?max_digits10@?$numeric_limits@M@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<float>::max_exponent" (?max_exponent@?$numeric_limits@M@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<float>::max_exponent10" (?max_exponent10@?$numeric_limits@M@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<float>::min_exponent" (?min_exponent@?$numeric_limits@M@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<float>::min_exponent10" (?min_exponent10@?$numeric_limits@M@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<double>::digits" (?digits@?$numeric_limits@N@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<double>::digits10" (?digits10@?$numeric_limits@N@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<double>::max_digits10" (?max_digits10@?$numeric_limits@N@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<double>::max_exponent" (?max_exponent@?$numeric_limits@N@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<double>::max_exponent10" (?max_exponent10@?$numeric_limits@N@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<double>::min_exponent" (?min_exponent@?$numeric_limits@N@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<double>::min_exponent10" (?min_exponent10@?$numeric_limits@N@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<long double>::digits" (?digits@?$numeric_limits@O@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<long double>::digits10" (?digits10@?$numeric_limits@O@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<long double>::max_digits10" (?max_digits10@?$numeric_limits@O@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<long double>::max_exponent" (?max_exponent@?$numeric_limits@O@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<long double>::max_exponent10" (?max_exponent10@?$numeric_limits@O@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<long double>::min_exponent" (?min_exponent@?$numeric_limits@O@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<long double>::min_exponent10" (?min_exponent10@?$numeric_limits@O@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static enum std::float_denorm_style const std::_Num_base::has_denorm" (?has_denorm@_Num_base@std@@2W4float_denorm_style@2@B) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::has_denorm_loss" (?has_denorm_loss@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::has_infinity" (?has_infinity@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::has_quiet_NaN" (?has_quiet_NaN@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::has_signaling_NaN" (?has_signaling_NaN@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::is_bounded" (?is_bounded@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::is_exact" (?is_exact@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::is_iec559" (?is_iec559@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::is_integer" (?is_integer@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::is_modulo" (?is_modulo@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::is_signed" (?is_signed@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::is_specialized" (?is_specialized@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::tinyness_before" (?tinyness_before@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_base::traps" (?traps@_Num_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static enum std::float_round_style const std::_Num_base::round_style" (?round_style@_Num_base@std@@2W4float_round_style@2@B) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::_Num_base::digits" (?digits@_Num_base@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::_Num_base::digits10" (?digits10@_Num_base@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::_Num_base::max_digits10" (?max_digits10@_Num_base@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::_Num_base::max_exponent" (?max_exponent@_Num_base@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::_Num_base::max_exponent10" (?max_exponent10@_Num_base@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::_Num_base::min_exponent" (?min_exponent@_Num_base@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::_Num_base::min_exponent10" (?min_exponent10@_Num_base@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::_Num_base::radix" (?radix@_Num_base@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_int_base::is_bounded" (?is_bounded@_Num_int_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_int_base::is_exact" (?is_exact@_Num_int_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_int_base::is_integer" (?is_integer@_Num_int_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_int_base::is_modulo" (?is_modulo@_Num_int_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_int_base::is_specialized" (?is_specialized@_Num_int_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::_Num_int_base::radix" (?radix@_Num_int_base@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static enum std::float_denorm_style const std::_Num_float_base::has_denorm" (?has_denorm@_Num_float_base@std@@2W4float_denorm_style@2@B) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::has_denorm_loss" (?has_denorm_loss@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::has_infinity" (?has_infinity@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::has_quiet_NaN" (?has_quiet_NaN@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::has_signaling_NaN" (?has_signaling_NaN@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::is_bounded" (?is_bounded@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::is_exact" (?is_exact@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::is_iec559" (?is_iec559@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::is_integer" (?is_integer@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::is_modulo" (?is_modulo@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::is_signed" (?is_signed@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::is_specialized" (?is_specialized@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::tinyness_before" (?tinyness_before@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::_Num_float_base::traps" (?traps@_Num_float_base@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static enum std::float_round_style const std::_Num_float_base::round_style" (?round_style@_Num_float_base@std@@2W4float_round_style@2@B) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::_Num_float_base::radix" (?radix@_Num_float_base@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<char>::is_signed" (?is_signed@?$numeric_limits@D@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<char>::digits" (?digits@?$numeric_limits@D@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<char>::digits10" (?digits10@?$numeric_limits@D@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<wchar_t>::is_signed" (?is_signed@?$numeric_limits@_W@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<wchar_t>::digits" (?digits@?$numeric_limits@_W@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<wchar_t>::digits10" (?digits10@?$numeric_limits@_W@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<bool>::is_modulo" (?is_modulo@?$numeric_limits@_N@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<bool>::is_signed" (?is_signed@?$numeric_limits@_N@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<bool>::digits" (?digits@?$numeric_limits@_N@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<bool>::digits10" (?digits10@?$numeric_limits@_N@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<signed char>::is_signed" (?is_signed@?$numeric_limits@C@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<signed char>::digits" (?digits@?$numeric_limits@C@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<signed char>::digits10" (?digits10@?$numeric_limits@C@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static bool const std::numeric_limits<unsigned char>::is_signed" (?is_signed@?$numeric_limits@E@std@@2_NB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<unsigned char>::digits" (?digits@?$numeric_limits@E@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>jsoncpp_d.lib(json_writer.obj) : error LNK2005: "public: static int const std::numeric_limits<unsigned char>::digits10" (?digits10@?$numeric_limits@E@std@@2HB) already defined in jsoncpp_d.lib(json_value.obj)
+     1>D:\projects\UAF\src\FRUAExport\Debug\FRUAExport.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "D:\projects\UAF\src\FRUAExport\FRUAExport_VS2008.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:20.49

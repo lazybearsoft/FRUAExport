@@ -1,0 +1,18 @@
+﻿  jsontest.cpp
+  main.cpp
+  Generating Code...
+  jsoncpp_r.lib(json_value.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+  Generating code
+  Finished generating code
+  test_lib_json.vcxproj -> C:\dev\FRUA_CONVERT\FRUAExport\jsoncpp-src-0.5.0\makefiles\vs71\../../build/vs71/release/test_lib_json\test_lib_json.exe
+  test_lib_json.vcxproj -> ../../build/vs71/release/test_lib_json\test_lib_json.pdb (Full PDB)
+  Testing ValueTest/size: OK
+  Testing ValueTest/isObject: OK
+  Testing ValueTest/isArray: OK
+  Testing ValueTest/isBool: OK
+  Testing ValueTest/isInt: OK
+  Testing ValueTest/isUInt: OK
+  Testing ValueTest/isDouble: OK
+  Testing ValueTest/isString: OK
+  Testing ValueTest/isNull: OK
+  All 9 tests passed

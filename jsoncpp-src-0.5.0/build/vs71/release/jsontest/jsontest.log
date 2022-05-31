@@ -1,0 +1,6 @@
+﻿  main.cpp
+  jsoncpp_r.lib(json_value.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+  Generating code
+  Finished generating code
+  jsontest.vcxproj -> C:\dev\FRUA_CONVERT\FRUAExport\jsoncpp-src-0.5.0\makefiles\vs71\../../build/vs71/release/jsontest\jsontest.exe
+  jsontest.vcxproj -> ../../build/vs71/release/jsontest\jsontest.pdb (Full PDB)
